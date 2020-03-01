@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fa"  dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fountain of Youth</title>
+    <!--Materialize css-->
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--Navbar-->
+<nav>
+    <div class="nav-wrapper  navbar-fixed">
+        <a href="#" class="brand-logo center  fa-dima">چشمه حیات</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down blue-grey-text">
+
+            <li><a class="blue-grey-text text-darken-2" href="about.html">درباره ما</a></li>
+            <li><a class="blue-grey-text text-darken-2" href="contact.html">ارتباط با ما </a></li>
+            <li><a class="blue-grey-text text-darken-2" href="market.html">فروشگاه</a></li>
+            <li><a class="blue-grey-text text-darken-2" href="index.html">خانه</a></li>
+            <li><a title="صبد خرید" class="blue-grey-text text-darken-2" href="shop.html"><i class="material-icons">shopping_cart</i></a></li>
+            <li><a class="blue-grey-text text-darken-2" title="Full Scrine" id="full" onclick="openFullscreen()" ><i class="material-icons">crop_free</i></a></li>
+            <li><a class="blue-grey-text text-darken-2" id="close" onclick="closeFullscreen()"><i class="material-icons">crop</i></a></li>
+        </ul>
+    </div>
+</nav>
+<ul class="sidenav yellow center" id="mobile-demo" >
+        <li><a title="صبد خرید" class="blue-grey-text text-darken-2" href="shop.html"><i
+            class="material-icons right">shopping_cart</i>سبد خرید</a></li>
+    <li><a class="blue-grey-text text-darken-2" href="index.html"><i
+        class="material-icons right">home</i>خانه</a></li>
+    <li><a class="blue-grey-text text-darken-2" href="market.html"><i class="material-icons right">shop</i>فروشگاه</a></li>
+    <li><a class="blue-grey-text text-darken-2" href="contact.html"><i class="material-icons right">phone</i>ارتباط با ما </a></li>
+    <li><a class="blue-grey-text text-darken-2" href="about.html"><i class="material-icons right">info</i>درباره ما</a></li>
+</ul>
+<!--body-->
+<div class="slider fullscreen ">
+    <ul class="slides">
+        <li>
+            <img src="image/Honey-1.jpg"> <!-- random image -->
+            <div class="caption center-align">
+                <h3 style="text-shadow:#1b1e21 5px 5px 10px">GCORP</h3>
+                <div class="">
+                    <div class="row z-depth-3" style="background: yellow;opacity: 0.6;border-radius: 10px;padding: 25px">
+                        <div class="col s12">
+                            <p class="flow-text grey-text text-darken-4" >Tell: +989370290168</p>
+                            <p class="flow-text grey-text text-darken-4" >Email: Hosseinradvictor@gmail.com</p>
+                           <a class="flow-text" href="http://gcorp.cc/">Web: GCORP.cc</a>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--Script Indent-->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script src="js/fullscrin.js"></script>
+<script src="js/init.js"></script>
+</body>
+</html>

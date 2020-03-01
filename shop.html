@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fountain of Youth</title>
+    <!--Materialize css-->
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class=" yellow darken-1 scroll-v">
+
+  <!--Navbar-->
+<nav class="nav-up">
+        <div class="nav-wrapper yellow">
+            <a href="#" class="brand-logo center  fa-dima">چشمه حیات</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down blue-grey-text">
+    
+                <li><a class="blue-grey-text text-darken-2" href="about.html">درباره ما</a></li>
+                <li><a class="blue-grey-text text-darken-2" href="contact.html">ارتباط با ما </a></li>
+                <li><a class="blue-grey-text text-darken-2" href="market.html">فروشگاه</a></li>
+                <li><a class="blue-grey-text text-darken-2" href="index.html">خانه</a></li>
+                <li><a title="صبد خرید" class="blue-grey-text text-darken-2" href="shop.html"><i class="material-icons">shopping_cart</i></a></li>
+                <li><a class="blue-grey-text text-darken-2" title="Full Scrine" id="full" onclick="openFullscreen()" ><i class="material-icons">crop_free</i></a></li>
+                <li><a class="blue-grey-text text-darken-2" id="close" onclick="closeFullscreen()"><i class="material-icons">crop</i></a></li>
+            
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav yellow center" id="mobile-demo" >
+            <li><a title="صبد خرید" class="blue-grey-text text-darken-2" href="shop.html"><i
+                class="material-icons right">shopping_cart</i>سبد خرید</a></li>
+        <li><a class="blue-grey-text text-darken-2" href="index.html"><i
+            class="material-icons right">home</i>خانه</a></li>
+        <li><a class="blue-grey-text text-darken-2" href="market.html"><i class="material-icons right">shop</i>فروشگاه</a></li>
+        <li><a class="blue-grey-text text-darken-2" href="contact.html"><i class="material-icons right">phone</i>ارتباط با ما </a></li>
+        <li><a class="blue-grey-text text-darken-2" href="about.html"><i class="material-icons right">info</i>درباره ما</a></li>
+    </ul>
+    <!--body-->
+    <div class="bg-yello">
+        <div class="row center">
+            <div class="col l4 m4 s12">
+                <img class="center-align responsive-img" src="image/glass-2.jpg">
+                <blockquote class="white-text " dir="rtl">
+                    <div class="card-content">
+                        <p>امروزه عسل خواص بسیاری دارد و خواص درمانی عسل هم در طب سنتی و هم برای پزشکان ثابت شده است،
+                            مقالاتی که در مجموعه آهوتا منتشر شده است خواص درمانی فوق العاده عسل ها در آنها ذکر شده .</p>
+                    </div>
+                    <div class="card-action">
+                        <nav class="pink darken-2" style="padding:0 5px">
+                            <div class="nav-wrapper">
+                                <a href="#" class="brand-logo right">قیمت : 25000</a>
+                                <ul id="nav-mobile" class=" hide-on-med-and-down">
+                                    <li><i class="material-icons">expand_less</i></li>
+                                    <li><i class="material-icons">exposure_plus_1</i></li>
+                                    <li><i class="material-icons">expand_more</i></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+
+                   
+                </blockquote>
+                <button onclick="M.toast({html: 'خرید شما با موفقیت انجام گردید', classes: 'rounded blue'});"
+                class="btn waves-effect green darken-2" type="submit" name="action">پرداخت
+                <i class="material-icons right">monetization_on</i>
+            </button>
+            <button onclick="M.toast({html: 'خرید شما با موفقیت انجام گردید', classes: 'rounded blue'});"
+            class="btn waves-effect red darken-2" type="submit" name="action">حذف
+            <i class="material-icons right">money_off</i>
+        </button>
+            </div>
+            <div class="col l4 m4 s12">
+                    <img class="center-align responsive-img" src="image/glass-4.jpg">
+                    <blockquote class="white-text " dir="rtl">
+                        <div class="card-content">
+                            <p>امروزه عسل خواص بسیاری دارد و خواص درمانی عسل هم در طب سنتی و هم برای پزشکان ثابت شده است،
+                                مقالاتی که در مجموعه آهوتا منتشر شده است خواص درمانی فوق العاده عسل ها در آنها ذکر شده .</p>
+                        </div>
+                        <div class="card-action">
+                            <nav class="pink darken-2" style="padding:0 5px">
+                                <div class="nav-wrapper">
+                                    <a href="#" class="brand-logo right">قیمت : 25000</a>
+                                    <ul id="nav-mobile" class=" hide-on-med-and-down">
+                                        <li><i class="material-icons">expand_less</i></li>
+                                        <li><i class="material-icons">exposure_plus_1</i></li>
+                                        <li><i class="material-icons">expand_more</i></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+    
+                       
+                    </blockquote>
+                    <button onclick="M.toast({html: 'خرید شما با موفقیت انجام گردید', classes: 'rounded blue'});"
+                    class="btn waves-effect green darken-2" type="submit" name="action">پرداخت
+                    <i class="material-icons right">monetization_on</i>
+                </button>
+                <button onclick="M.toast({html: 'خرید شما با موفقیت انجام گردید', classes: 'rounded blue'});"
+                class="btn waves-effect red darken-2" type="submit" name="action">حذف
+                <i class="material-icons right">money_off</i>
+            </button>
+                </div>
+                <div class="col l4 m4 s12">
+                        <img class="center-align responsive-img" src="image/glass-3.jpg">
+                        <blockquote class="white-text " dir="rtl">
+                            <div class="card-content">
+                                <p>امروزه عسل خواص بسیاری دارد و خواص درمانی عسل هم در طب سنتی و هم برای پزشکان ثابت شده است،
+                                    مقالاتی که در مجموعه آهوتا منتشر شده است خواص درمانی فوق العاده عسل ها در آنها ذکر شده .</p>
+                            </div>
+                            <div class="card-action">
+                                <nav class="pink darken-2" style="padding:0 5px">
+                                    <div class="nav-wrapper">
+                                        <a href="#" class="brand-logo right">قیمت : 25000</a>
+                                        <ul id="nav-mobile" class=" hide-on-med-and-down">
+                                            <li><i class="material-icons">expand_less</i></li>
+                                            <li><i class="material-icons">exposure_plus_1</i></li>
+                                            <li><i class="material-icons">expand_more</i></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+        
+                           
+                        </blockquote>
+                        <button onclick="M.toast({html: 'خرید شما با موفقیت انجام گردید', classes: 'rounded blue'});"
+                        class="btn waves-effect green darken-2" type="submit" name="action">پرداخت
+                        <i class="material-icons right">monetization_on</i>
+                    </button>
+                    <button onclick="M.toast({html: 'خرید شما با موفقیت انجام گردید', classes: 'rounded blue'});"
+                    class="btn waves-effect red darken-2" type="submit" name="action">حذف
+                    <i class="material-icons right">money_off</i>
+                </button>
+                    </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="page-footer yellow  darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text fa-dima">چشمه حیات</h5>
+                    <p class="grey-text text-darken-3"> آب زندگانی یا آب حَیات چشمه‌ای تخیلی است در داستان‌ها که گفته
+                        می‌شود هر کس از آن بنوشد جوانی خود را بازمی‌یابد و پیر نمی‌شود.</p>
+                    <p class="grey-text text-darken-3">اما در واقعیت با نگاه به خواص بیشمار عسل در سلامت انسان میتوان
+                        عسل را چشمه حیات نامید که به شما سلامت و تندرستی هدیه میدهد.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text fa-dima">لینک های دسترسی</h5>
+                    <ul>
+                        <li><a class="blue-grey-text text-darken-2" href="index.html">خانه</a></li>
+                        <li><a class="blue-grey-text text-darken-2" href="market.html">فروشگاه</a></li>
+                        <li><a class="blue-grey-text text-darken-2" href="contact.html">ارتباط با ما </a></li>
+                        <li><a class="blue-grey-text text-darken-2" href="about.html">درباره ما</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <a class="grey-text text-lighten-4 right" href="http://gcorp.cc/">2018 Copyright © GCORP </a>
+            </div>
+        </div>
+    </footer>
+
+    <!--Script Indent-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/fullscrin.js"></script>
+    <script src="js/init.js"></script>
+</body>
+
+</html>

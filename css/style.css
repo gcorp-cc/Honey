@@ -1,0 +1,187 @@
+/* GCORP Font style Dev for Base 2018 Hossein rad */
+/* persian font */
+@font-face {
+    font-family: 'sahelblack';
+    src: url('../fonts/fa/Sahel-Black-FD.eot') format('eot'), /* IE6–8 */ url('../fonts/fa/Sahel-Black-FD.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/fa/Sahel-Black-FD.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'sahel';
+    src: url('../fonts/fa/sahel-FD.eot') format('eot'), /* IE6–8 */ url('../fonts/fa/sahel-FD.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/fa/sahel-FD.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+/* titr persian font Titre */
+@font-face {
+    font-family: 'sahelbold';
+    src: url('../fonts/fa/sahel-Bold-FD.eot') format('eot'), /* IE6–8 */ url('../fonts/fa/sahel-Bold-FD.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/fa/sahel-Bold-FD.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+/* persian art font */
+
+@font-face {
+    font-family: 'Dima Shekasteh';
+    src: url('../fonts/fa/Dima Shekasteh.eot');
+    src: url('../fonts/fa/Dima Shekasteh.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DimaShekastehFree';
+    src: url('../fonts/fa/DimaShekastehFree.woff') format('woff'),
+    url('../fonts/fa/DimaShekastehFree.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* english font */
+@font-face {
+    font-family: 'JosefinSans-Regular';
+    src: url('../fonts/en/JosefinSans-Regular.eot');
+    src: url('../fonts/en/JosefinSans-Regular.woff') format('woff'),
+    url('../fonts/en/JosefinSans-Regular.ttf') format('truetype'),
+    url('../fonts/en/JosefinSans-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'QuesatLightDemo-Italic';
+    src: url('../fonts/en/QuesatLightDemo-Italic.eot');
+    src: url('../fonts/en/QuesatLightDemo-Italic.woff') format('woff'),
+    url('../fonts/en/QuesatLightDemo-Italic.ttf') format('truetype'),
+    url('../fonts/en/QuesatLightDemo-Italic.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* english art font */
+@font-face {
+    font-family: 'PinyonScript-Regular';
+    src: url('../fonts/en/PinyonScript-Regular.eot');
+    src: url('../fonts/en/PinyonScript-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PinyonScript';
+    src: url('../fonts/en/PinyonScript.woff') format('woff'),
+    url('../fonts/en/PinyonScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parisienne-Regular';
+    src: url('../fonts/en/Parisienne-Regular.eot');
+    src: url('../fonts/en/Parisienne-Regular.woff') format('woff'),
+    url('../fonts/en/Parisienne-Regular.ttf') format('truetype'),
+    url('../fonts/en/Parisienne-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* english font titr */
+@font-face {
+    font-family: 'Dressedless Three';
+    src: url('../fonts/en/Dressedless Three.eot');
+    src: url('../fonts/en/Dressedless Three.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DressedlessThree';
+    src: url('../fonts/en/DressedlessThree.woff') format('woff'),
+    url('../fonts/en/DressedlessThree.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+:root {
+    font-family:  'sahel', 'JosefinSans-Regular';
+   
+}
+.fa-dima{
+    font-family: 'Dima Shekasteh', 'DimaShekastehFree';
+    text-shadow: #120715 3px 3px 10px;
+}
+a,p {
+    font-family: 'sahel';
+    text-align: justify;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dressedless Three', 'sahelbold';
+}
+
+.nav-up{
+    position: sticky;
+    top: 0;
+}
+.bg-yello{
+    padding: 50px;
+    background: url('../image/bg-1.jpg') fixed  center;
+}
+/*Scroll vertical*/
+.scroll-v{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow: auto;
+  }
+  .scroll-v::-webkit-scrollbar{
+   width: 12px;
+  }
+  .scroll-v::-webkit-scrollbar-thumb {
+    box-shadow: 3px 3px 15px #4d4d50;
+    border-radius: 10px;
+    background-color: #ffbb00;
+    background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, .2) 50%,
+    rgba(255, 255, 255, .2) 75%,
+    transparent 75%,
+    transparent)
+  }
+  
+  .scroll-v::-webkit-scrollbar-track {
+    
+    border-radius: 10px;
+    box-shadow: 3px 3px 17px rgba(62, 94, 238, 0.8);
+    background-color:  #f2f5f8;
+  }
+  
+  
+  /**  Scroll Horizintal */
+  .scroll-h{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    overflow: auto;
+   
+  }
+  .scroll-h::-webkit-scrollbar{
+   height: 12px;
+  }
+  .scroll-h::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #face0c;
+    background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, .2) 50%,
+    rgba(255, 255, 255, .2) 75%,
+    transparent 75%,
+    transparent)
+  }
+  
+  .scroll-h::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #f2f5f8;
+  }
+  
